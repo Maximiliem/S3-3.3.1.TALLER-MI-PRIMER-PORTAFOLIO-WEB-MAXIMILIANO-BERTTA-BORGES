@@ -1,44 +1,43 @@
 body {
-    background-color: rgb(196, 239, 253);
-  }
+  background-color: rgb(196, 239, 253);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-  h1 {
-    color: rgba(255, 255, 255, 0.925);
-    text-align:center;
-    background-color: rgb(28, 119, 204);
-    width: 225px;
-    height: 42px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+h1 {
+  color: rgba(255, 255, 255, 0.925);
+  text-align: center;
+  background-color: rgb(28, 119, 204);
+  width: 1210px;
+  height: 42px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  
+}
 
-  h2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
 
-  img{
-    width:auto;
-    /* buscar en los apuntes o en w3schools cómo tengo que hacer para que la imagen se alinee a la derecha del texto sin interferir. */
-  }
+img {
+  width: auto;
+  display: block;
+  margin: auto;
+  float: right;
+  clear: left;
+  /* buscar en los apuntes o en w3schools cómo tengo que hacer para que la imagen se alinee a la derecha del texto sin interferir. */
+}
 
-  p#primero{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgba(41, 41, 41, 0.144);
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-  }
+p#primero {
+  background-color: rgba(41, 41, 41, 0.144);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 
-  p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+}
 
-  a {
-    color: rgb(27, 118, 179);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
 
-  /* 
+
+a {
+  color: rgb(27, 118, 179);
+}
+
+/* 
   https://www.w3schools.com/css/
   
   https://www.freecodecamp.org/espanol/news/hojas-de-estilo-css-externas-como-vincular-css-a-html-e-importar-a-head/
