@@ -14,7 +14,7 @@ h1 {
   color: rgba(255, 255, 255, 0.925);
   text-align: center;
   background-color: rgb(28, 119, 204);
-  width: auto;
+  width:auto;
   height: 42px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
@@ -27,9 +27,9 @@ h1 {
 
 .imagen {
   /* width: auto; */
-  display: block;
-  /* margin: auto; */
-  /* float: right; */
+  /* display: block; */
+  margin-right: 25px;
+  float:left;
   /* clear: left; */
   /* buscar en los apuntes o en w3schools cómo tengo que hacer para que la imagen se alinee a la derecha del texto sin interferir. */
 }
