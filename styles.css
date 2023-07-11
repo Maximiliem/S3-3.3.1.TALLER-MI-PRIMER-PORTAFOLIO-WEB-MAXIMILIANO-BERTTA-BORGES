@@ -6,14 +6,14 @@ La página debe contener al menos una imagen
 */
 
 body {
-  background-color: rgb(196, 239, 253);
+  background-color: rgb(245,245,220);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
   color: rgba(255, 255, 255, 0.925);
   text-align: center;
-  background-color: rgb(28, 119, 204);
+  background-color: rgb(71, 53, 4);
   width:auto;
   height: 42px;
   -webkit-border-radius: 10px;
@@ -35,7 +35,7 @@ h1 {
 }
 
 p#primero {
-  background-color: rgba(41, 41, 41, 0.144);
+  background-color: rgba(236, 221, 173, 0.568);
   -webkit-border-radius: 10px;
   border-radius: 10px;
   display:grid;
@@ -46,7 +46,7 @@ p#primero {
 
 
 a {
-  color: rgb(27, 118, 179);
+  color: rgb(80, 66, 6);
 }
 
 /* 
