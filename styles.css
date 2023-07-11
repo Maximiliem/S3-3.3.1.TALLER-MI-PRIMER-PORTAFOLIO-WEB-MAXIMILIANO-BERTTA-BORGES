@@ -1,3 +1,10 @@
+/*
+Debes crear todo el código CSS en una hoja de estilos externa
+El código CSS debe contener al menos 3 selectores que hagan referencia a clases
+El código CSS debe contener al menos 2 selectores que hagan referencia a elementos de la página a través de su id
+La página debe contener al menos una imagen
+*/
+
 body {
   background-color: rgb(196, 239, 253);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -7,20 +14,23 @@ h1 {
   color: rgba(255, 255, 255, 0.925);
   text-align: center;
   background-color: rgb(28, 119, 204);
-  width: 1210px;
+  width: auto;
   height: 42px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
   
 }
 
+.contenedor {
+  display: flex;
+}
 
-img {
-  width: auto;
+.imagen {
+  /* width: auto; */
   display: block;
-  margin: auto;
-  float: right;
-  clear: left;
+  /* margin: auto; */
+  /* float: right; */
+  /* clear: left; */
   /* buscar en los apuntes o en w3schools cómo tengo que hacer para que la imagen se alinee a la derecha del texto sin interferir. */
 }
 
@@ -28,6 +38,8 @@ p#primero {
   background-color: rgba(41, 41, 41, 0.144);
   -webkit-border-radius: 10px;
   border-radius: 10px;
+  display:grid;
+  width: 400px;
 
 }
 
