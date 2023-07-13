@@ -1,11 +1,3 @@
-/*
-Debes crear todo el código CSS en una hoja de estilos externa - DONE
-El código CSS debe contener al menos 3 selectores que hagan referencia a clases - DONE
-El código CSS debe contener al menos 2 selectores que hagan referencia a elementos de la página a través de su id - DONE
-La página debe contener al menos una imagen - DONE
-
-AGREGAR COMENTARIOS DE QUÉ HACEN ALGUNAS PARTES DEL CÓDIGO EN CSS Y HTML
-*/
 
 body {
   background-color: rgb(245, 245, 220);
@@ -20,7 +12,7 @@ h1 {
   height: 42px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
-
+/* el border radius se encarga de redondear los bordes, en este caso, del background color del h1 */
 }
 
 h2 {
@@ -35,11 +27,14 @@ h2 {
 
 .contenedor {
   display: flex;
+  /* el display: flex ayuda a colocar las cajas como si fueran celdas de tablas, con un comportamiento predecible y adaptable */
 }
 
 .imagen {
+  /* El display inline establece que un elemento ocupará el espacio del contenido del mismo y el siguiente elemento se situará a la derecha. Para estos elementos, no se puede agregar medidas de anchura (width) y altura (height) */
   display: inline;
   margin-right: 25px;
+  /* float ubica un elemento al lado izquierdo o derecho de su contenedor, permitiendo a los elementos de texto y en línea aparecer a su costado */
   float: left;
   border-radius: 15px;
   border: 2px solid rgb(56, 38, 22);
@@ -93,11 +88,14 @@ a {
 }
 
 .linkpaginaprincipal:hover {
+  /* :hover es una pseudo-clase que permite establecer un segundo estado a cualquier elemento. Cuando un usuario interactúa con este elemento, por ejemplo, al pasar el cursor encima se puede observar un cambio*/
   background-color: rgb(23, 23, 25);
   transition: background-color 0.3s ease;
+  /* la transition es la duración de la animación */
 }
 
 .linkpaginaprincipal:active {
+  /* representa un elemento (como un botón) que el usuario está activando */
   background-color: rgb(0, 0, 0);
   color: white;
 }
