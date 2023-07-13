@@ -1,8 +1,10 @@
 /*
-Debes crear todo el código CSS en una hoja de estilos externa - CHECK
-El código CSS debe contener al menos 3 selectores que hagan referencia a clases - FALTA 1 SELECTOR Y 1 CLASE
-El código CSS debe contener al menos 2 selectores que hagan referencia a elementos de la página a través de su id - CHECK
-La página debe contener al menos una imagen - CHECK
+Debes crear todo el código CSS en una hoja de estilos externa - DONE
+El código CSS debe contener al menos 3 selectores que hagan referencia a clases - DONE
+El código CSS debe contener al menos 2 selectores que hagan referencia a elementos de la página a través de su id - DONE
+La página debe contener al menos una imagen - DONE
+
+AGREGAR COMENTARIOS DE QUÉ HACEN ALGUNAS PARTES DEL CÓDIGO EN CSS Y HTML
 */
 
 body {
@@ -41,6 +43,10 @@ h2 {
   float: left;
   border-radius: 15px;
   border: 2px solid rgb(56, 38, 22);
+}
+
+.listaConocimiento{
+  margin-left: 5%;
 }
 
 .parrafoMargen2 {
