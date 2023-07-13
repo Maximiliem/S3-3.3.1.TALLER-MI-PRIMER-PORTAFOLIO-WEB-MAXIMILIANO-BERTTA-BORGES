@@ -43,6 +43,10 @@ h2 {
   border: 2px solid rgb(56, 38, 22);
 }
 
+.parrafoMargen2 {
+  margin-top: 2.5%;
+}
+
 .parrafoMargen4 {
   margin-top: 2.5%;
 }
@@ -74,7 +78,6 @@ p#primero {
   border-radius: 10px;
   display: grid;
   width: 400px;
-
 }
 
 /* acá van las clases listas para ver cómo las puedo ubicar visualmente */
@@ -84,7 +87,7 @@ a {
 }
 
 .linkpaginaprincipal:hover {
-  background-color: rgb(39, 41, 43);
+  background-color: rgb(23, 23, 25);
   transition: background-color 0.3s ease;
 }
 
