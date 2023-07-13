@@ -72,6 +72,11 @@ h2 {
   margin-bottom: 2%;
 }
 
+.margendelboton {
+  float: left;
+  margin-top: 5%;
+}
+
 p#primero {
   background-color: rgba(236, 221, 173, 0.568);
   -webkit-border-radius: 10px;
